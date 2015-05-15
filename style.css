@@ -1,0 +1,11 @@
+.eventname .hostname .contactemail .location .description{
+  font-weight: bold;
+  text-align: center;
+}
+body {
+  background-color: #D47324;
+  color: #E0D083;
+}
+img {
+  width: 150px;
+}
