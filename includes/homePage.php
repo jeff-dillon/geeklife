@@ -6,10 +6,17 @@
 	<head><title>Home Page</title>
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../style.css" />
 	</head>
 	<body>
+		 <header>
+    <img src="http://i.imgur.com/Kh8ZJS7.png" alt="logo">
+    <hr/>
+    <nav>
+      <a href="index.php">Home</a>
+    </nav>
+  </header>
 		<h1>Home Page</h1>
-		<a href="index.php?action=showDetail">Show Detail</a><br>
 		<a href="index.php?action=createEvent">Create Event</a><br><br>
 		<!--
 		<table>

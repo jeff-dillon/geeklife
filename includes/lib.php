@@ -34,6 +34,7 @@ function getPosts() {
 function createPost($n, $e, $l, $d) {
 	$sql = "INSERT INTO posts (user_name, user_email, post_address, post_content) 
 			VALUES ('$n','$e', '$l','$d')";
+	mysql_query($sql);
 }
 
 ?>
