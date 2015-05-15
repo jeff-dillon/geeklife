@@ -1,3 +1,4 @@
+<?php
 /*
  * main controller for geeklife.social
  */
@@ -15,3 +16,4 @@ if($action == 'showHomePage') {
 	//display the page
 	echo "Hello, World!";
 }
+?>
