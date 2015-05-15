@@ -25,11 +25,21 @@ if( isset($_REQUEST["action"]) ) {
 	$action = $_REQUEST["action"];
 } 
 
+// get the current action from request
+if( isset($_REQUEST["name"]) ) {
+	$name = $_REQUEST["name"];
+	$email = $_REQUEST["email"];
+	$location = $_REQUEST["location"];
+	$desc = $_REQUEST["desc"];
+	
+	createPost($name, $email, $location, $desc);
+}
+
 $actionFiles = array();
 
 $actionFiles['showHome'] 				= 	'includes/homePage.php';
 $actionFiles['showDetail'] 				= 	'includes/detailPage.php';
-$actionFiles['showEventCreate'] 		= 	'includes/eventCreatePage.php';
+$actionFiles['createEvent'] 		= 	'includes/eventCreatePage.php';
 
 $postList = getPosts();
 
