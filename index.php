@@ -20,6 +20,11 @@ if(!$link) {
 
 $action = "showHome";
 
+// get the current action from request
+if( isset($_REQUEST["action"]) ) {
+	$action = $_REQUEST["action"];
+} 
+
 $actionFiles = array();
 
 $actionFiles['showHome'] 				= 	'includes/homePage.php';
