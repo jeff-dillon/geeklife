@@ -9,11 +9,12 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"></link>
     <link rel="stylesheet" href="../style.css"></link>
 	</head>
-<body>
+<body class="col-md-offset-2 col-md-8">
   <header>
     <img src="http://i.imgur.com/Kh8ZJS7.png" alt="logo">
+    <hr/>
     <nav>
-      <a href="main.html">home</a>
+      <a href="main.html">Home</a>
     </nav>
     <h1 class="eventname">Settlers of Catan game night!</h1>
   </header>
