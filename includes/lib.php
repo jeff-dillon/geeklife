@@ -1,5 +1,10 @@
 <?php
 
+$env_mysql_host = "mysql.cragnotes.com";
+$env_mysql_database = "hack_db";
+$env_mysql_user = "hack_db_user";
+$env_mysql_password = "#4ckp4ss";
+
 /**
  * get a list of all of the states from the states table for use in drop-down box
  * @return assoc of states
