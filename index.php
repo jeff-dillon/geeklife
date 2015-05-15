@@ -4,16 +4,16 @@
  */
 
 
-$actions = array();
-$publicActions[0] = 'showHomePage';
-$publicActions[1] = 'showDetailPage';
-$publicActions[2] = 'showEventCreate';
-$publicActions[3] = 'doRSVP';
+$action = "showHome";
 
-if($action == 'showHomePage') {
-	//get the list of events
-	
-	//display the page
-	echo "Hello, World!";
-}
+$actionFiles = array();
+
+$actionFiles['showHome'] 				= 	'includes/homePage.php';
+$actionFiles['showDetail'] 				= 	'includes/detailPage.php';
+$actionFiles['showEventCreate'] 		= 	'includes/eventCreatePage.php';
+
+
+include($actionFiles[$action]);
+
+
 ?>
