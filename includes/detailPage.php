@@ -14,7 +14,7 @@
     <img src="http://i.imgur.com/Kh8ZJS7.png" alt="logo">
     <hr/>
     <nav>
-      <a href="main.html">Home</a>
+      <a href="homePage.php">Home</a>
     </nav>
     <h1 class="eventname">Settlers of Catan game night!</h1>
   </header>
